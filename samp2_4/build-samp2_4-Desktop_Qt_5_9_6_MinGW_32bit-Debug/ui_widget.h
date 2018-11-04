@@ -59,7 +59,7 @@ public:
         Widget->resize(700, 502);
         groupBox = new QGroupBox(Widget);
         groupBox->setObjectName(QStringLiteral("groupBox"));
-        groupBox->setGeometry(QRect(30, 31, 161, 221));
+        groupBox->setGeometry(QRect(30, 21, 161, 231));
         label = new QLabel(groupBox);
         label->setObjectName(QStringLiteral("label"));
         label->setGeometry(QRect(20, 30, 54, 12));
@@ -68,7 +68,7 @@ public:
         serialPortcomboBox->setGeometry(QRect(70, 20, 69, 22));
         label_2 = new QLabel(groupBox);
         label_2->setObjectName(QStringLiteral("label_2"));
-        label_2->setGeometry(QRect(20, 60, 54, 12));
+        label_2->setGeometry(QRect(20, 62, 54, 20));
         comboBox_2 = new QComboBox(groupBox);
         comboBox_2->setObjectName(QStringLiteral("comboBox_2"));
         comboBox_2->setGeometry(QRect(70, 60, 69, 22));
@@ -110,7 +110,7 @@ public:
         checkBox_4->setGeometry(QRect(30, 50, 71, 16));
         groupBox_4 = new QGroupBox(Widget);
         groupBox_4->setObjectName(QStringLiteral("groupBox_4"));
-        groupBox_4->setGeometry(QRect(210, 30, 461, 311));
+        groupBox_4->setGeometry(QRect(210, 20, 461, 321));
         textEdit = new QTextEdit(groupBox_4);
         textEdit->setObjectName(QStringLiteral("textEdit"));
         textEdit->setGeometry(QRect(13, 20, 431, 281));
