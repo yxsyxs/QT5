@@ -81,7 +81,7 @@
       <item row="2" column="0">
        <widget class="QLabel" name="label_6">
         <property name="text">
-         <string>     八进制      </string>
+         <string>     二进制      </string>
         </property>
        </widget>
       </item>
@@ -104,7 +104,7 @@
       <item row="1" column="0">
        <widget class="QLabel" name="label_5">
         <property name="text">
-         <string>     二进制</string>
+         <string>    十六进制</string>
         </property>
        </widget>
       </item>

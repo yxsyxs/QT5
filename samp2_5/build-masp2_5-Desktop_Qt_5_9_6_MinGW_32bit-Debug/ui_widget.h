@@ -175,9 +175,9 @@ public:
         pushButton->setText(QApplication::translate("Widget", "\350\256\241\347\256\227", Q_NULLPTR));
         label_3->setText(QApplication::translate("Widget", "  \346\200\273\344\273\267  ", Q_NULLPTR));
         label->setText(QApplication::translate("Widget", "    \346\225\260\351\207\217   ", Q_NULLPTR));
-        label_6->setText(QApplication::translate("Widget", "     \345\205\253\350\277\233\345\210\266      ", Q_NULLPTR));
+        label_6->setText(QApplication::translate("Widget", "     \344\272\214\350\277\233\345\210\266      ", Q_NULLPTR));
         label_4->setText(QApplication::translate("Widget", "     \345\215\201\350\277\233\345\210\266", Q_NULLPTR));
-        label_5->setText(QApplication::translate("Widget", "     \344\272\214\350\277\233\345\210\266", Q_NULLPTR));
+        label_5->setText(QApplication::translate("Widget", "    \345\215\201\345\205\255\350\277\233\345\210\266", Q_NULLPTR));
         pushButton_2->setText(QApplication::translate("Widget", "      \350\275\254\346\215\242     ", Q_NULLPTR));
         pushButton_3->setText(QApplication::translate("Widget", "\350\275\254\346\215\242", Q_NULLPTR));
         pushButton_4->setText(QApplication::translate("Widget", "\350\275\254\346\215\242", Q_NULLPTR));

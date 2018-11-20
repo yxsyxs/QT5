@@ -8,6 +8,8 @@ Widget::Widget(QWidget *parent) :
     ui->setupUi(this);
     connect(ui->pushButton,SIGNAL(clicked()),this,SLOT(add()));
     connect(ui->pushButton_2,SIGNAL(clicked()),this,SLOT(dec()));
+    connect(ui->pushButton_3,SIGNAL(clicked()),this,SLOT(hex()));
+    connect(ui->pushButton_4,SIGNAL(clicked()),this,SLOT(bin()));
 }
 
 Widget::~Widget()
@@ -39,12 +41,28 @@ void Widget::dec()
 
 }
 
-//void Widget::hex()
-//{
+void Widget::hex()
+{
+    bool ok;
+    QString str = ui->lineEdit_5->text();
+    int val = str.toInt(&ok,16);
 
-//}
+    str = str.setNum(val,10);
+    ui->lineEdit_4->setText(str);
 
-//void Widget::bin()
-//{
+    str = str.setNum(val,2);
+    ui->lineEdit_6->setText(str);
+}
 
-//}
+void Widget::bin()
+{
+    bool ok;
+    QString str = ui->lineEdit_6->text();
+    int val = str.toInt(&ok,2);
+
+    str = str.setNum(val,10);
+    ui->lineEdit_4->setText(str);
+
+    str = str.setNum(val,16);
+    ui->lineEdit_5->setText(str);
+}

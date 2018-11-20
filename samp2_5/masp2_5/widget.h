@@ -16,6 +16,9 @@ void add();
 
 void dec();
 
+void bin();
+void hex();
+
 public:
     explicit Widget(QWidget *parent = 0);
     ~Widget();
