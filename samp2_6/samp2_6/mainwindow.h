@@ -11,6 +11,16 @@ class MainWindow : public QMainWindow
 {
     Q_OBJECT
 
+public slots:
+void jisuan();
+
+void dec();
+
+void bin();
+
+void hex();
+
+
 public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
